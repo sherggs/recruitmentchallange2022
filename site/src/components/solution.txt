@@ -1,0 +1,10 @@
+I started by making a use state hook with the name newsData 
+I loaded the data.json on node with nodemon to host it on http://localhost:3002/
+then const LoadData with an asynchronous function to get the json file 
+I implemented useEffect 
+I then mapped the entire data needed into the newsCard
+
+Thank you for the amazing challenge. 
+
+Kind Regards,
+Ademola Jegede
