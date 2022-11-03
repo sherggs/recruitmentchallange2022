@@ -20,9 +20,9 @@ interface NewsCardProps {
 
 const NewsCard: React.FC<NewsCardProps> = ({ heading, imageURL, summary, url, date }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 263 }}>
       <CardHeader subheader={`Published: ${date.toString().substring(0,10)}`} />
-      <CardMedia component="img" height="140" image={imageURL} alt={heading} />
+      <CardMedia component="img" height="150" image={imageURL} alt={heading} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {heading}
